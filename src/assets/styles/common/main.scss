@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'element-plus/dist/index.css';
+
+@layer base {
+  html,
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+  }
+}
